@@ -1,0 +1,24 @@
+{
+	"name": "erunner/checkers",
+	"description": "checkers game",
+	"version": "1.0.0",
+	"type": "library",
+	"keywords": ["checkers", "game", "pawn"],
+	"homepage": "https://github.com/dzarmosz/checkers.git",
+	"license": "MIT",
+	
+	"authors": [
+		{
+		"name": "Krystian Jarmoszka",
+            	"email": "k.jarmoszka@erunner.eu"
+		}
+	],
+
+	"support": [
+		{
+		"name": "Kamil Kurczak",
+		"email": "k.kurczak@erunner.eu"
+		}
+	]
+}
+
