@@ -1,0 +1,3 @@
+<?php
+
+$checkers = new Checkers();

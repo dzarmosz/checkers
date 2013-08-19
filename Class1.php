@@ -1,8 +1,5 @@
 <?php
-
-namespace Class1TEST;
-
-include_once('Checkers.php');
+namespace Erunner\Checkers;
 
 use Erunner\Checkers\Checkers;
 
