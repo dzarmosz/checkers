@@ -1,6 +1,6 @@
 <?php
 
-namespace Erunner\Board;
+namespace Erunner\Checkers\Board;
 
 class Board{
     public function blabla(){

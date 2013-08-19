@@ -1,3 +1,7 @@
 <?php
 
-$checkers = new Checkers();
+require 'vendor/autoload.php';
+
+use Erunner\Board\Board;
+
+$board = new Board();
