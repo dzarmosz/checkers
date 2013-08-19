@@ -1,0 +1,10 @@
+<?php
+
+namespace class1TEST as checkers;
+
+use Erunner\Checkers as checkers;
+
+class class1{
+	$test = new \checkers\Test()
+	echo('$test');
+}

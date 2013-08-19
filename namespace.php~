@@ -1,0 +1,10 @@
+<?php
+
+namespace Erunner\Checkers;
+
+class TestClass{
+	function __autoload(){
+	echo 'Erunner\Checkers test'; exit;
+	}
+}
+
