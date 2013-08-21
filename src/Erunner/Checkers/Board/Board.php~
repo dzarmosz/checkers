@@ -2,8 +2,5 @@
 
 namespace Erunner\Checkers\Board;
 
-class Board{
-    public function blabla(){
-        echo 'asda';
-    }
-}
+echo ("asda\n");exit;
+
