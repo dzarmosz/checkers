@@ -18,4 +18,8 @@ class Product
         return $this->name.' '.$this->price;
     }
 
+    public function getPrice()
+    {
+        return $this->price;
+    }
 }

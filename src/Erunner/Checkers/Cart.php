@@ -8,6 +8,8 @@ class Cart
 {
     private  $product;
     private  $client;
+    private $prices;
+
     private $items = array();
 
     public function show()
@@ -32,5 +34,13 @@ class Cart
         return $this->client;
     }
 
+    public function totalPrice()
+    {
+        $sum =0;
+        foreach($this->items as $item){
+         $sum += $item->getPrice();
+    }
+    return $sum;
 
+    }
 }
