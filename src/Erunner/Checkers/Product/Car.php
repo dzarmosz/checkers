@@ -25,4 +25,7 @@ class Car extends Product implements Color, Engine
     {
         return $this->engine;
     }
+
+    function __clone(){
+    }
 }

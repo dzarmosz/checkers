@@ -15,5 +15,6 @@ class Book extends Product implements Author
     {
         return $this->author;
     }
-
+    function __clone(){
+    }
 }

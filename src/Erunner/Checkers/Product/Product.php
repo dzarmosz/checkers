@@ -43,7 +43,6 @@ abstract class Product
         return $this->price;
     }
 
-    function __clone(){
-    }
+    abstract function __clone();
 }
 

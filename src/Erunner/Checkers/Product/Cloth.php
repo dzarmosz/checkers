@@ -25,4 +25,7 @@ class Cloth extends Product implements Color, Size
     {
         return $this->size;
     }
+
+    function __clone(){
+    }
 }
