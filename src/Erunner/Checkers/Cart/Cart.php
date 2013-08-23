@@ -1,8 +1,8 @@
 <?php
 
-namespace Erunner\Checkers;
+namespace Erunner\Checkers\Cart;
 
-use Erunner\Checkers;
+use Erunner\Checkers\Product\Product;
 
 class Cart
 {

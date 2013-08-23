@@ -1,6 +1,6 @@
 <?php
 
-namespace Erunner\Checkers;
+namespace Erunner\Checkers\Client;
 
 class Client
 {
