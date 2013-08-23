@@ -3,6 +3,7 @@
 namespace Erunner\Checkers\Product;
 
 use Erunner\Checkers\Product\Product;
+use Erunner\Checkers\Product\Author;
 
 class Book extends Product implements Author
 {

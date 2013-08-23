@@ -3,6 +3,8 @@
 namespace Erunner\Checkers\Product;
 
 use Erunner\Checkers\Product\Product;
+use Erunner\Checkers\Product\Color;
+use Erunner\Checkers\Product\Size;
 
 class Cloth extends Product implements Color, Size
 {

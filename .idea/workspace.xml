@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f97445f1-2ffb-4894-9ced-72fd6400ce46" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erunner/Checkers/Product/Author.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Erunner/Checkers/Product/Book.php" afterPath="$PROJECT_DIR$/src/Erunner/Checkers/Product/Book.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Erunner/Checkers/Product/Car.php" afterPath="$PROJECT_DIR$/src/Erunner/Checkers/Product/Car.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Erunner/Checkers/Product/Cloth.php" afterPath="$PROJECT_DIR$/src/Erunner/Checkers/Product/Cloth.php" />
@@ -30,34 +30,25 @@
       <file leaf-file-name="Product.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="32" selection-start="735" selection-end="735" vertical-scroll-proportion="-28.125">
+            <state line="2" column="22" selection-start="7" selection-end="43" vertical-scroll-proportion="-1.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="Size.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Size.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="25" selection-start="837" selection-end="837" vertical-scroll-proportion="0.47890535">
+            <state line="2" column="22" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Checkers.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Checkers.php">
+      <file leaf-file-name="Color.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Color.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="-3.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cart.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Cart/Cart.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="-12.5">
+            <state line="7" column="1" selection-start="118" selection-end="118" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
@@ -66,7 +57,7 @@
       <file leaf-file-name="Cloth.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Cloth.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="5" selection-start="463" selection-end="463" vertical-scroll-proportion="-18.125">
+            <state line="6" column="33" selection-start="151" selection-end="151" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
@@ -75,16 +66,43 @@
       <file leaf-file-name="Car.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Car.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="5" selection-start="475" selection-end="475" vertical-scroll-proportion="-18.125">
+            <state line="6" column="35" selection-start="153" selection-end="153" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Book.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Book.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Book.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="287" selection-end="316" vertical-scroll-proportion="-10.625">
+            <state line="18" column="6" selection-start="330" selection-end="330" vertical-scroll-proportion="0.30786774">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Engine.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Engine.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="-1.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Author.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Author.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="-1.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="25" selection-start="837" selection-end="837" vertical-scroll-proportion="-17.5">
               <folding />
             </state>
           </provider>
@@ -103,10 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Report.php" />
-        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Client.php" />
-        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Product.php" />
-        <option value="$PROJECT_DIR$/src/Config.php" />
         <option value="$PROJECT_DIR$/Config.php" />
         <option value="$PROJECT_DIR$/Book.php" />
         <option value="$PROJECT_DIR$/Abstract.php" />
@@ -114,11 +128,15 @@
         <option value="$PROJECT_DIR$/src/Erunner/Checkers/Cart/Cart.php" />
         <option value="$PROJECT_DIR$/src/Erunner/Checkers/Client/Client.php" />
         <option value="$PROJECT_DIR$/zadanko.php" />
-        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Product/Product.php" />
-        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Product/Book.php" />
-        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Product/Car.php" />
-        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Product/Cloth.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Product/Product.php" />
+        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Product/Size.php" />
+        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Product/Color.php" />
+        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Product/Engine.php" />
+        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Product/Author.php" />
+        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Product/Cloth.php" />
+        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Product/Car.php" />
+        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Product/Book.php" />
       </list>
     </option>
   </component>
@@ -221,6 +239,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Checkers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Erunner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Checkers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Product" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -376,33 +420,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Class1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="21" selection-start="95" selection-end="95" vertical-scroll-proportion="0.106132075" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Board/Board.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="114" selection-end="114" vertical-scroll-proportion="0.15393387" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Abstract.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="26" selection-start="972" selection-end="972" vertical-scroll-proportion="-32.166668">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zadanko.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="1" selection-start="303" selection-end="303" vertical-scroll-proportion="-16.875">
           <folding />
         </state>
       </provider>
@@ -421,44 +441,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="32" selection-start="735" selection-end="735" vertical-scroll-proportion="-28.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Book.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="28" selection-start="701" selection-end="701" vertical-scroll-proportion="0.71835804">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Book.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="287" selection-end="316" vertical-scroll-proportion="-10.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Car.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="5" selection-start="475" selection-end="475" vertical-scroll-proportion="-18.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Cloth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="5" selection-start="463" selection-end="463" vertical-scroll-proportion="-18.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Cart/Cart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="-12.5">
           <folding />
         </state>
       </provider>
@@ -470,9 +455,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zadanko.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="-13.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Engine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Size.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="22" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Author.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="22" selection-start="7" selection-end="43" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Cart/Cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="0.34207526">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="25" selection-start="837" selection-end="837" vertical-scroll-proportion="0.47890535">
+        <state line="28" column="25" selection-start="837" selection-end="837" vertical-scroll-proportion="-17.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Color.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="1" selection-start="118" selection-end="118" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Cloth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="33" selection-start="151" selection-end="151" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Car.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="35" selection-start="153" selection-end="153" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Book.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="6" selection-start="330" selection-end="330" vertical-scroll-proportion="0.30786774">
           <folding />
         </state>
       </provider>
