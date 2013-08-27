@@ -2,7 +2,8 @@
 
 namespace Erunner\Checkers\Product;
 
-interface Author{
+interface Author
+{
     function setAuthor($author);
     function getAuthor();
 }

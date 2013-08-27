@@ -2,7 +2,8 @@
 
 namespace Erunner\Checkers\Product;
 
-interface Engine{
+interface Engine
+{
     function setEngine($engine);
     function getEngine();
 }

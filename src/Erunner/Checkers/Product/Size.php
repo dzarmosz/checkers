@@ -2,7 +2,8 @@
 
 namespace Erunner\Checkers\Product;
 
-interface Size{
+interface Size
+{
     function setSize($size);
     function getSize();
 }

@@ -10,7 +10,7 @@ class Cloth extends Product implements Color, Size
 {
     public function setColor($color)
     {
-        $this->color=$color;
+        $this->color = $color;
     }
 
     public function getColor()
@@ -20,7 +20,7 @@ class Cloth extends Product implements Color, Size
 
     public function setSize($size)
     {
-        $this->size=$size;
+        $this->size = $size;
     }
 
     public function getSize()
@@ -28,6 +28,7 @@ class Cloth extends Product implements Color, Size
         return $this->size;
     }
 
-    function __clone(){
+    function __clone()
+    {
     }
 }

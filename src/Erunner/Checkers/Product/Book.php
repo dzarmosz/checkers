@@ -9,13 +9,15 @@ class Book extends Product implements Author
 {
     public function setAuthor($author)
     {
-        $this->author=$author;
+        $this->author = $author;
     }
 
     public function getAuthor()
     {
         return $this->author;
     }
-    function __clone(){
+    function __clone()
+    {
     }
 }
+

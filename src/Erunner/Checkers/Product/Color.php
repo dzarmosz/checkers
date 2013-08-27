@@ -2,7 +2,8 @@
 
 namespace Erunner\Checkers\Product;
 
-interface Color{
+interface Color
+{
     function setColor($color);
     function getColor();
 }

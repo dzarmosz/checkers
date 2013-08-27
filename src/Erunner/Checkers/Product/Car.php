@@ -10,7 +10,7 @@ class Car extends Product implements Color, Engine
 {
     public function setColor($color)
     {
-        $this->color=$color;
+        $this->color = $color;
     }
 
     public function getColor()
@@ -20,7 +20,7 @@ class Car extends Product implements Color, Engine
 
     public function setEngine($engine)
     {
-        $this->engine=$engine;
+        $this->engine = $engine;
     }
 
     public function getEngine()
@@ -28,6 +28,7 @@ class Car extends Product implements Color, Engine
         return $this->engine;
     }
 
-    function __clone(){
+    function __clone()
+    {
     }
 }

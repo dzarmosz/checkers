@@ -4,6 +4,9 @@ require 'vendor/autoload.php';
 
 use Erunner\Checkers\Product\Product;
 use Erunner\Checkers\Product\Book;
+use Erunner\Checkers\Product\Weapon;
+use Erunner\Checkers\Product\Sword;
+use Erunner\Checkers\Product\Mace;
 use Erunner\Checkers\Product\Car;
 use Erunner\Checkers\Product\Cloth;
 use Erunner\Checkers\Client\Client;
@@ -68,3 +71,15 @@ $cart4->addProduct($bible);
 $cart4->addProduct($blouse2);
 $cart4->show();
 echo "TOTAL: " . $cart4->totalPrice() . "\n";
+
+$dragonSlayer = new Sword("Dragon Slayer", "250");
+$dragonSlayer->setMaterial("Iron");
+$dragonSlayer->setWeight("5kg");
+$dragonSlayer->setWidthBlade("1,5m");
+echo $dragonSlayer . " " . $dragonSlayer->getMaterial() . " " . $dragonSlayer->getWeight() . " " . $dragonSlayer->getWidthBlade() . "\n";
+
+$arcanaMace = new Mace("Arcana Mace", "280");
+$arcanaMace->setMaterial("Wood");
+$arcanaMace->setWeight("2kg");
+$arcanaMace->setNumberOfSpike("8");
+echo $arcanaMace . " " . $arcanaMace->getMaterial() . " " . $arcanaMace->getWeight() . " " . $arcanaMace->getNumberOfSpike() . "\n";
