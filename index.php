@@ -12,7 +12,8 @@ use Erunner\Checkers\Product\Cloth;
 use Erunner\Checkers\Client\Client;
 use Erunner\Checkers\Cart\Cart;
 
-$bible = new Book("Bible", "100");
+
+$bible = new Book("Bible", "100", 'PriceForNewClient');
 $bible->setAuthor("Apostoles");
 echo $bible . " " . $bible->getAuthor() . "\n";
 $godfather = clone $bible;
@@ -20,19 +21,20 @@ $godfather->setAuthor("Mario Puzo");
 echo $godfather . " " . $godfather->getAuthor() . "\n";
 
 
-$audi = new Car("Audi", "2000000");
+$audi = new Car("Audi", "2000000", 'PriceForVips');
 $audi->setColor("black");
 $audi->setEngine("2.5");
 echo $audi . " " . $audi->getColor() . " " . $audi->getEngine() . "\n";
 
-$blouse = new Cloth("Blouse" , "59");
+$blouse = new Cloth("Blouse" , "50", 'PriceForRegularClient');
 $blouse->setColor("blue");
 $blouse->setSize("M");
-echo $blouse . ' ' . $blouse->getColor() . " " . $blouse->getSize() . "\n";
+echo $blouse ." ". $blouse->getColor() . " " . $blouse->getSize() . "\n";
 $blouse2 = clone $blouse;
+$blouse2->setStrategy('PriceForNewClient');
 $blouse2->setColor("black");
 $blouse2->setSize("XL");
-echo $blouse2 . ' ' . $blouse2->getColor() . " " . $blouse2->getSize() . "\n";
+echo $blouse2 . " " . $blouse2->getColor() . " " . $blouse2->getSize() . "\n";
 
 $chuck = new Client("Chuck", "Norris", "111111111", "Chicago 10");
 $rocky = new Client("Rocky", "Balboa", "222222222", "Las Vegas 20");
@@ -41,8 +43,8 @@ $rocky = new Client("Rocky", "Balboa", "222222222", "Las Vegas 20");
 echo "------------REPORT---------------\n";
 $cart = new Cart();
 $cart->addProduct($audi);
+$cart->addProduct($blouse2);
 $cart->setClient($chuck);
-$cart->setClient($blouse2);
 echo $cart->getClient();
 echo "\nCARD 1\n";
 $cart->show();
@@ -72,13 +74,13 @@ $cart4->addProduct($blouse2);
 $cart4->show();
 echo "TOTAL: " . $cart4->totalPrice() . "\n";
 
-$dragonSlayer = new Sword("Dragon Slayer", "250");
+$dragonSlayer = new Sword("Dragon Slayer", "250", "PriceForNewClient");
 $dragonSlayer->setMaterial("Iron");
 $dragonSlayer->setWeight("5kg");
 $dragonSlayer->setWidthBlade("1,5m");
 echo $dragonSlayer . " " . $dragonSlayer->getMaterial() . " " . $dragonSlayer->getWeight() . " " . $dragonSlayer->getWidthBlade() . "\n";
 
-$arcanaMace = new Mace("Arcana Mace", "280");
+$arcanaMace = new Mace("Arcana Mace", "280", "PriceForNewClient");
 $arcanaMace->setMaterial("Wood");
 $arcanaMace->setWeight("2kg");
 $arcanaMace->setNumberOfSpike("8");

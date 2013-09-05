@@ -3,6 +3,7 @@
 namespace Erunner\Checkers\Cart;
 
 use Erunner\Checkers\Product\Product;
+use Erunner\Checkers\Client\Client;
 
 class Cart
 {
@@ -24,7 +25,12 @@ class Cart
         $this->items[]  = $product;
     }
 
-    public function setClient($client)
+    public function getProducts()
+    {
+        return $this->items;
+    }
+
+    public function setClient(Client $client)
     {
         $this->client=$client;
     }
@@ -38,9 +44,9 @@ class Cart
     {
         $sum =0;
         foreach($this->items as $item){
-         $sum += $item->getPrice();
-    }
-    return $sum;
+            $sum += $item->getPrice();
+        }
+        return $sum;
 
     }
 }

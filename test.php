@@ -1,19 +1,49 @@
 <?php
-// Declare a simple class
-class TestClass
+
+interface Pizza
 {
-    public $foo;
+    public function getName();
+}
 
-    public function __construct($foo)
+class HawalianPizzda implements Pizza
+{
+    public function getName()
     {
-        $this->foo = $foo;
-    }
-
-    public function __toString()
-    {
-        return $this->foo;
+        return "Hawalian Pizza";
     }
 }
 
-$class = new TestClass('Hello');
-echo $class;
+class DeluxePizza implements Pizza
+{
+    public function getName()
+    {
+        return "Deluxe Pizza";
+    }
+}
+
+interface Creator
+{
+    public function create($type);
+}
+
+class ConcreteCreator implements Creator
+{
+    public function create($type)
+    {
+        switch($type)
+        {
+            case 'Hawalian':
+                return new HawalianPizzda();
+                break;
+            case 'Deluxe':
+                return new DeluxePizza();
+                break;
+        }
+    }
+}
+
+$creator = new ConcreteCreator();
+$prod1 = $creator->create('Hawalian');
+$prod2 = $creator->create('Deluxe');
+echo $prod1->getName();
+echo $prod2->getName();
