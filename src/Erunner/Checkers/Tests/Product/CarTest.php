@@ -1,7 +1,8 @@
 <?php
 
+namespace Erunner\Checkers\Tests\Product;
+
 use Erunner\Checkers\Product\Car;
-use Erunner\Checkers\Product\Product;
 
 class CarTest extends \PHPUnit_Framework_TestCase
 {
@@ -26,6 +27,6 @@ class CarTest extends \PHPUnit_Framework_TestCase
         $this->car = new Car("audi 6", 2500, "PriceForVips");
         $this->car->setEngine(2.5);
 
-        $this->assertEquals($audi->getEngine(),$this->car->getEngine());
+        $this->assertEquals($audi->getEngine(), $this->car->getEngine());
     }
 }

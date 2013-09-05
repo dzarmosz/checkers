@@ -3,9 +3,9 @@
 namespace Erunner\Checkers\Product;
 
 use Erunner\Checkers\Product\Weapon;
-use Erunner\Checkers\Product\numberOfSpike;
+use Erunner\Checkers\Product\NumberOfSpike;
 
-class Mace extends Weapon implements numberOfSpike
+class Mace extends Weapon implements NumberOfSpike
 {
     public function setNumberOfSpike($numberOfSpike)
     {

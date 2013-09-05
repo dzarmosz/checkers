@@ -1,5 +1,7 @@
 <?php
 
+namespace Erunner\Checkers\Tests\Product;
+
 use Erunner\Checkers\Product\Cloth;
 
 class ClothTest extends \PHPUnit_Framework_TestCase

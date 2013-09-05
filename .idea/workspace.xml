@@ -2,17 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f97445f1-2ffb-4894-9ced-72fd6400ce46" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/ClothTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Erunner/Checkers/Product/numberOfSpike.php" afterPath="$PROJECT_DIR$/src/Erunner/Checkers/Product/NumberOfSpike.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Erunner/Checkers/Product/widthBlade.php" afterPath="$PROJECT_DIR$/src/Erunner/Checkers/Product/WidthBlade.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/BookTest.php" afterPath="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Product/BookTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/CarTest.php" afterPath="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Product/CarTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/ClothTest.php" afterPath="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Product/ClothTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/PricesTest.php" afterPath="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Product/PricesTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/WeaponTest.php" afterPath="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Product/WeaponTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/CartTest.php" afterPath="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/CartTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Erunner/Checkers/Client/Client.php" afterPath="$PROJECT_DIR$/src/Erunner/Checkers/Client/Client.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Erunner/Checkers/Product/Mace.php" afterPath="$PROJECT_DIR$/src/Erunner/Checkers/Product/Mace.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Erunner/Checkers/Product/Sword.php" afterPath="$PROJECT_DIR$/src/Erunner/Checkers/Product/Sword.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Erunner/Checkers/Product/Weapon.php" afterPath="$PROJECT_DIR$/src/Erunner/Checkers/Product/Weapon.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="checkers.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378215101176" ignored="false" />
-    <file path="/Mace.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1377591169398" ignored="false" />
-    <file path="/numberOfSpike.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1377590382621" ignored="false" />
+    <file path="/Mace.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378391162980" ignored="false" />
+    <file path="/numberOfSpike.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378391149408" ignored="false" />
     <file path="/widthBlade.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1377589565567" ignored="false" />
-    <file path="/Sword.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1377591669152" ignored="false" />
-    <file path="/a.dummy" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378369188241" ignored="false" />
+    <file path="/Sword.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378391295121" ignored="false" />
+    <file path="/a.dummy" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378391265060" ignored="false" />
     <file path="/Width.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1377589139211" ignored="false" />
     <file path="/Material.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1377588852027" ignored="false" />
     <file path="/Weapon.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1377591616299" ignored="false" />
@@ -29,15 +40,16 @@
     <file path="/PriceForNewClient.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378117450036" ignored="false" />
     <file path="/PriceForRegularClient.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378117492410" ignored="false" />
     <file path="/Price.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378207430989" ignored="false" />
-    <file path="/CartTest.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378366700263" ignored="false" />
+    <file path="/CartTest.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378373077181" ignored="false" />
     <file path="/Cart.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378301466938" ignored="false" />
     <file path="/Client.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378300546585" ignored="false" />
     <file path="/ClientTest.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378367051426" ignored="false" />
-    <file path="/WeaponTest.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378369343675" ignored="false" />
-    <file path="/CarTest.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378369786399" ignored="false" />
-    <file path="/BookTest.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378370103969" ignored="false" />
-    <file path="/PricesTest.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378371573796" ignored="false" />
-    <file path="/ClothTest.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378372232732" ignored="false" />
+    <file path="/WeaponTest.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378373367176" ignored="false" />
+    <file path="/CarTest.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378373350485" ignored="false" />
+    <file path="/BookTest.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378391113243" ignored="false" />
+    <file path="/PricesTest.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378373359730" ignored="false" />
+    <file path="/ClothTest.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378373355577" ignored="false" />
+    <file path="/WidthBlade.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378391270100" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,40 +69,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Product.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Product.php">
+      <file leaf-file-name="WidthBlade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/WidthBlade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="6.875">
+            <state line="4" column="11" selection-start="55" selection-end="55" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PricesTest.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/PricesTest.php">
+      <file leaf-file-name="PricesTest.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Tests/Product/PricesTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="33" selection-start="790" selection-end="790" vertical-scroll-proportion="-16.25">
+            <state line="20" column="16" selection-start="534" selection-end="534" vertical-scroll-proportion="0.51903117">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClothTest.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/ClothTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="821" selection-end="821" vertical-scroll-proportion="0.7785467">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CartTest.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/CartTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="50" selection-start="204" selection-end="230" vertical-scroll-proportion="-5.625">
-              <folding>
-                <element signature="e#47#78#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -113,22 +105,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Product/PriceForRegularClient.php" />
-        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Product/PriceForVips.php" />
-        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Product/PriceForNewClient.php" />
-        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Product/Price.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Client/Client.php" />
-        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Cart/Cart.php" />
-        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/ClientTest.php" />
-        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/CartTest.php" />
-        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/SwordTest.php" />
-        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/WeaponTest.php" />
         <option value="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/CarTest.php" />
         <option value="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/BookTest.php" />
-        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Product/Product.php" />
-        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/PricesTest.php" />
         <option value="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/ClothTest.php" />
+        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/PricesTest.php" />
+        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/WeaponTest.php" />
+        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Product/ClothTest.php" />
+        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Product/WeaponTest.php" />
+        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Product/CarTest.php" />
+        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Client/Client.php" />
+        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Product/BookTest.php" />
+        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Product/numberOfSpike.php" />
+        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Product/Mace.php" />
+        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Product/Weapon.php" />
+        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Product/WidthBlade.php" />
+        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Product/Sword.php" />
+        <option value="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Product/PricesTest.php" />
       </list>
     </option>
   </component>
@@ -234,6 +226,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Checkers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Erunner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Checkers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Product" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -387,22 +409,16 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Product" />
       <recent name="$PROJECT_DIR$/src/Erunner/Checkers/Report" />
       <recent name="$PROJECT_DIR$/src/Erunner/Checkers/Client" />
       <recent name="$PROJECT_DIR$/src/Erunner/Checkers/Cart" />
       <recent name="$PROJECT_DIR$/src/Erunner/Checkers/Product" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.ClothTest">
+  <component name="RunManager" selected="PHPUnit.CarTest">
     <configuration default="false" name="WeaponTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="WeaponTest" file="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/WeaponTest.php" scope="Class" />
-      <RunnerSettings RunnerId="PhpRunner" />
-      <ConfigurationWrapper RunnerId="PhpRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="CarTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="CarTest" file="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/CarTest.php" scope="Class" />
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
@@ -421,6 +437,12 @@
     </configuration>
     <configuration default="false" name="ClothTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="ClothTest" file="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/ClothTest.php" scope="Class" />
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CarTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Erunner\Checkers\Tests\Product\CarTest" file="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Product/CarTest.php" scope="Class" />
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
@@ -448,18 +470,18 @@
       <item index="0" class="java.lang.String" itemvalue="PHPUnit.CartTest" />
       <item index="1" class="java.lang.String" itemvalue="PHPUnit.Unnamed" />
       <item index="2" class="java.lang.String" itemvalue="PHPUnit.WeaponTest" />
-      <item index="3" class="java.lang.String" itemvalue="PHPUnit.CarTest" />
-      <item index="4" class="java.lang.String" itemvalue="PHPUnit.BookTest" />
-      <item index="5" class="java.lang.String" itemvalue="PHPUnit.PricesTest" />
-      <item index="6" class="java.lang.String" itemvalue="PHPUnit.ClothTest" />
+      <item index="3" class="java.lang.String" itemvalue="PHPUnit.BookTest" />
+      <item index="4" class="java.lang.String" itemvalue="PHPUnit.PricesTest" />
+      <item index="5" class="java.lang.String" itemvalue="PHPUnit.ClothTest" />
+      <item index="6" class="java.lang.String" itemvalue="PHPUnit.CarTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="PHPUnit.ClothTest" />
-        <item index="1" class="java.lang.String" itemvalue="PHPUnit.PricesTest" />
-        <item index="2" class="java.lang.String" itemvalue="PHPUnit.BookTest" />
-        <item index="3" class="java.lang.String" itemvalue="PHPUnit.CarTest" />
-        <item index="4" class="java.lang.String" itemvalue="PHPUnit.WeaponTest" />
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.CarTest" />
+        <item index="1" class="java.lang.String" itemvalue="PHPUnit.ClothTest" />
+        <item index="2" class="java.lang.String" itemvalue="PHPUnit.PricesTest" />
+        <item index="3" class="java.lang.String" itemvalue="PHPUnit.BookTest" />
+        <item index="4" class="java.lang.String" itemvalue="PHPUnit.CarTest" />
       </list>
     </recent_temporary>
   </component>
@@ -571,110 +593,64 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Sword.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="33" selection-start="194" selection-end="207" vertical-scroll-proportion="-5.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Mace.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="1" selection-start="380" selection-end="381" vertical-scroll-proportion="0.44117647">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Weapon.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="50" selection-start="209" selection-end="209" vertical-scroll-proportion="0.15570934">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Engine.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/WeaponTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="53" selection-start="72" selection-end="98" vertical-scroll-proportion="-2.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/CarTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="35" selection-start="541" selection-end="542" vertical-scroll-proportion="0.57093424">
+        <state line="11" column="46" selection-start="284" selection-end="284" vertical-scroll-proportion="-6.875">
           <folding>
-            <element signature="e#7#40#0" expanded="true" />
+            <element signature="e#44#80#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Material.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="29" selection-start="2068" selection-end="2068" vertical-scroll-proportion="1.6608996">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Car.php">
+    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/NumberOfSpike.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="10" selection-start="17" selection-end="41" vertical-scroll-proportion="0.051903114">
+        <state line="4" column="11" selection-start="55" selection-end="55" vertical-scroll-proportion="-2.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Book.php">
+    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Price.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="10" selection-start="17" selection-end="41" vertical-scroll-proportion="0.051903114">
-          <folding>
-            <element signature="e#44#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/BookTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="1" selection-start="474" selection-end="474" vertical-scroll-proportion="0.46712804">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Product.php">
+    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/PriceForNewClient.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="6.875">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/PricesTest.php">
+    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Weight.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="33" selection-start="790" selection-end="790" vertical-scroll-proportion="-16.25">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/CartTest.php">
+    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Cart/Cart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="50" selection-start="204" selection-end="230" vertical-scroll-proportion="-5.625">
-          <folding>
-            <element signature="e#47#78#0" expanded="true" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.47923875">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Cloth.php">
+    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Client/Client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="10" selection-start="17" selection-end="41" vertical-scroll-proportion="0.051903114">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -686,9 +662,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Tests/Cart/ClothTest.php">
+    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="821" selection-end="821" vertical-scroll-proportion="0.7785467">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.34948096">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/PriceForRegularClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/PriceForVips.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Weapon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="1" selection-start="45" selection-end="45" vertical-scroll-proportion="-2.5">
+          <folding>
+            <element signature="e#44#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/Sword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="39" selection-start="162" selection-end="162" vertical-scroll-proportion="0.1816609">
+          <folding>
+            <element signature="e#44#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Product/WidthBlade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="11" selection-start="55" selection-end="55" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Tests/Product/PricesTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="16" selection-start="534" selection-end="534" vertical-scroll-proportion="0.51903117">
           <folding />
         </state>
       </provider>

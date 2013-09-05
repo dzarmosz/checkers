@@ -9,6 +9,7 @@ use Erunner\Checkers\Product;
 
 class CartTest extends \PHPUnit_Framework_TestCase
 {
+    /** @var Cart $cart */
     protected $cart;
 
     public function setUp()

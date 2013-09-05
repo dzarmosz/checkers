@@ -1,6 +1,10 @@
 <?php
 
+namespace Erunner\Checkers\Tests\Product;
+
 use Erunner\Checkers\Product\Weapon;
+use Erunner\Checkers\Product\Sword;
+use \Erunner\Checkers\Product\Mace;
 
 class  WeaponTest extends \PHPUnit_Framework_TestCase
 {
@@ -8,10 +12,10 @@ class  WeaponTest extends \PHPUnit_Framework_TestCase
 //---------------------TEST SWORD--------------------
     public function testSetMaterial()
     {
-        $dragonSlayer = new \Erunner\Checkers\Product\Sword("Dragon Slayer", 100, "PriceForRegularClient");
+        $dragonSlayer = new Sword("Dragon Slayer", 100, "PriceForRegularClient");
         $dragonSlayer->setMaterial("Iron");
 
-        $this->weapon = new \Erunner\Checkers\Product\Sword("Dragon Slayer", 100, "PriceForRegularClient");
+        $this->weapon = new Sword("Dragon Slayer", 100, "PriceForRegularClient");
         $this->weapon->setMaterial("Iron");
 
         $this->assertSame($dragonSlayer->getMaterial(), $this->weapon->getMaterial());
@@ -19,7 +23,7 @@ class  WeaponTest extends \PHPUnit_Framework_TestCase
 
     public function testSetWeight()
     {
-        $dragonSlayer = new \Erunner\Checkers\Product\Sword("Dragon Slayer", 100, "PriceForVips");
+        $dragonSlayer = new Sword("Dragon Slayer", 100, "PriceForVips");
         $dragonSlayer->setWeight(1100);
 
         $this->weapon = new Weapon("Dragon Slayer", 100, "PriceForVips");
@@ -30,10 +34,10 @@ class  WeaponTest extends \PHPUnit_Framework_TestCase
 
     public function testSetWidthBlade()
     {
-        $dragonSlayer = new \Erunner\Checkers\Product\Sword("Dragon Slayer", 1000, "PriceForNormalClient");
+        $dragonSlayer = new Sword("Dragon Slayer", 1000, "PriceForNormalClient");
         $dragonSlayer->setWidthBlade(135);
 
-        $this->weapon = new \Erunner\Checkers\Product\Sword("Dragon Slayer", 1000, "PriceForNormalClient");
+        $this->weapon = new Sword("Dragon Slayer", 1000, "PriceForNormalClient");
         $this->weapon->setWidthBlade(135);
 
         $this->assertEquals($dragonSlayer->getWidthBlade(), $this->weapon->getWidthBlade());
@@ -42,10 +46,10 @@ class  WeaponTest extends \PHPUnit_Framework_TestCase
 
     public function testSetNumberOfSpike()
     {
-        $arcanaMace = new \Erunner\Checkers\Product\Mace("Arcana Mace", 400, "PriceForRegularClient");
+        $arcanaMace = new Mace("Arcana Mace", 400, "PriceForRegularClient");
         $arcanaMace->setNumberOfSpike(5);
 
-        $this->weapon = new \Erunner\Checkers\Product\Mace("Arcana Mace", 400, "PriceForRegularClient");
+        $this->weapon = new Mace("Arcana Mace", 400, "PriceForRegularClient");
         $this->weapon->setNumberOfSpike(5);
 
         $this->assertEquals($arcanaMace->getNumberOfSpike(), $this->weapon->getNumberOfSpike());

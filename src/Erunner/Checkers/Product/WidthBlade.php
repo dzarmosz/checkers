@@ -2,7 +2,7 @@
 
 namespace Erunner\Checkers\Product;
 
-interface widthBlade
+interface WidthBlade
 {
     function setWidthBlade($widthBlade);
     function getWidthBlade();

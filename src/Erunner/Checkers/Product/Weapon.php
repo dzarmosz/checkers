@@ -27,8 +27,4 @@ class Weapon extends Product implements Material, Weight
     {
         return $this->weight;
     }
-
-    function __clone()
-    {
-    }
 }

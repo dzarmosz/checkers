@@ -2,7 +2,7 @@
 
 namespace Erunner\Checkers\Product;
 
-interface numberOfSpike
+interface NumberOfSpike
 {
     function setNumberOfSpike($numberOfSpike);
     function getNumberOfSpike();
