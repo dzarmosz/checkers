@@ -49,4 +49,22 @@ class CartTest extends \PHPUnit_Framework_TestCase
 
        $this->assertEquals($cart1->totalPrice(),$this->cart->totalPrice() );
     }
+
+    public function testShow()
+    {
+        $audiA6 = new Car('audi a6', 100, 'PriceForRegularClient');
+        $audiA5 = new Car('audi a5', 110, 'PriceForRegularClient');
+        $audiA4 = new Car('audi a4', 120, 'PriceForRegularClient');
+
+        $cart1 = new Cart();
+        $cart1->addProduct($audiA4);
+        $cart1->addProduct($audiA5);
+        $cart1->addProduct($audiA6);
+
+        $this->cart->addProduct($audiA4);
+        $this->cart->addProduct($audiA5);
+        $this->cart->addProduct($audiA6);
+
+        $this->assertSame($cart1->show(), $this->cart->show());
+    }
 }
