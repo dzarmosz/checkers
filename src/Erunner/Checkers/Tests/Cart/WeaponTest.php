@@ -1,6 +1,7 @@
 <?php
 
 use Erunner\Checkers\Product\Weapon;
+
 class  WeaponTest extends \PHPUnit_Framework_TestCase
 {
     protected $weapon;
