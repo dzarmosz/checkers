@@ -6,7 +6,7 @@ use Erunner\Checkers\Product\PriceForRegularClient;
 use Erunner\Checkers\Product\PriceForNewClient;
 use Erunner\Checkers\Product\PriceForVips;
 
-abstract class Product
+class Product
 {
     protected  $name;
     protected  $price;
@@ -45,5 +45,4 @@ abstract class Product
         }
     }
 
-    abstract function __clone();
 }
