@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f97445f1-2ffb-4894-9ced-72fd6400ce46" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Client/ClientTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Erunner/Checkers/Client/Client.php" afterPath="$PROJECT_DIR$/src/Erunner/Checkers/Client/Client.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Client/ClientTest.php" afterPath="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Client/ClientTest.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="checkers.iws" />
@@ -18,7 +17,7 @@
     <file path="/Material.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1377588852027" ignored="false" />
     <file path="/Weapon.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1377591616299" ignored="false" />
     <file path="/Book.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1377588571319" ignored="false" />
-    <file path="/Dummy.txt" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378451822861" ignored="false" />
+    <file path="/Dummy.txt" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378457194285" ignored="false" />
     <file path="/test.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1377695194599" ignored="false" />
     <file path="/test2.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1377696038142" ignored="false" />
     <file path="/test3.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1377696927978" ignored="false" />
@@ -33,13 +32,16 @@
     <file path="/CartTest.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378373077181" ignored="false" />
     <file path="/Cart.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378301466938" ignored="false" />
     <file path="/Client.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378300546585" ignored="false" />
-    <file path="/ClientTest.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378456360283" ignored="false" />
+    <file path="/ClientTest.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378459476611" ignored="false" />
     <file path="/WeaponTest.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378373367176" ignored="false" />
     <file path="/CarTest.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378373350485" ignored="false" />
     <file path="/BookTest.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378391113243" ignored="false" />
     <file path="/PricesTest.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378373359730" ignored="false" />
     <file path="/ClothTest.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378373355577" ignored="false" />
     <file path="/WidthBlade.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378391270100" ignored="false" />
+    <file path="/home/oskar/Praca/HAS/src/Einder/Has/LeadBundle/Manager/ChanceStepManager.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378457196709" ignored="false" />
+    <file path="/home/oskar/Praca/HAS/src/Einder/Has/UserBundle/Listener/LogoutListener.php" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378457210452" ignored="false" />
+    <file path="/home/oskar/Praca/HAS/web/js/main.js" changelist="f97445f1-2ffb-4894-9ced-72fd6400ce46" time="1378457196709" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +109,7 @@
       <file leaf-file-name="ClientTest.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Tests/Client/ClientTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="38" selection-start="431" selection-end="431" vertical-scroll-proportion="0.46312177">
+            <state line="30" column="49" selection-start="934" selection-end="934" vertical-scroll-proportion="0.77186966">
               <folding />
             </state>
           </provider>
@@ -509,7 +511,9 @@
     <configuration default="false" name="ClientTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Erunner\Checkers\Tests\Client\ClientTest" file="$PROJECT_DIR$/src/Erunner/Checkers/Tests/Client/ClientTest.php" scope="Class" />
       <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpUnitDebugRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpUnitDebugRunner" />
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -578,14 +582,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31453842" sideWeight="0.6755603" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31453842" sideWeight="0.6755603" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991462" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3244397" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -751,7 +755,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Erunner/Checkers/Tests/Client/ClientTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="38" selection-start="431" selection-end="431" vertical-scroll-proportion="0.46312177">
+        <state line="30" column="49" selection-start="934" selection-end="934" vertical-scroll-proportion="0.77186966">
           <folding />
         </state>
       </provider>

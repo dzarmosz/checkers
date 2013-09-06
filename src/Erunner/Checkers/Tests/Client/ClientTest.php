@@ -16,17 +16,19 @@ class ClientTest extends \PHPUnit_Framework_TestCase
     /**
      * @dataProvider provider
      */
-    public function testClientProvider($name, $surname, $phoneNumber, $address)
+    public function testClientProvider($expected, $firstName, $lastName, $phoneNumber, $city)
     {
-        $client = new Client("Chuck", "Norris", "789654123", "New York");
+        $client = new Client($firstName, $lastName, $phoneNumber, $city);
 
-        $this->assertSame($name ." ". $surname ." ". $address ." ". $phoneNumber, $client->__toString());
+        $this->assertSame($expected, $client->__toString());
     }
 
     public function provider()
     {
         return array(
-            array("Chuck", "Norris", "789654123", "New York")
+            array("Chuck Norris New York 432543123", "Chuck", "Norris", "432543123", "New York"),
+            array("Jan Nowak New York 432543123", "Jan", "Nowak", "432543123", "New York"),
+            array("   ", null, null, null, null),
         );
     }
 }
