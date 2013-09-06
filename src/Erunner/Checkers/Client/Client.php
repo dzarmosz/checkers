@@ -18,6 +18,6 @@ class Client
 
     public function __toString()
     {
-        return  $this->name ." ". $this->surname ." ". $this->address ." ". $this->phoneNumber ." bought:\n";
+        return  $this->name ." ". $this->surname ." ". $this->address ." ". $this->phoneNumber;
     }
 }
