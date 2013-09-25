@@ -10,10 +10,10 @@ class Client
     private $address;
 
     public function __construct($name, $surname, $phoneNumber, $address){
-        $this->name=$name;
-        $this->surname=$surname;
-        $this->phoneNumber=$phoneNumber;
-        $this->address=$address;
+        $this->name = $name;
+        $this->surname = $surname;
+        $this->phoneNumber = $phoneNumber;
+        $this->address = $address;
     }
 
     public function __toString()
